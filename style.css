@@ -1,0 +1,93 @@
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+nav li:hover{
+    background-color: blanchedalmond;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+div{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#text {
+    font-size: 50px;
+}
+
+#text-1{
+    font-size: 25px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    margin-bottom: auto;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+.h2-text{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(8, 14, 34);
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    padding: 75px 100px 10px 75px;
+}
+
+/*top right bottom left*/
+
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img{
+    width:auto;
+}
+
+.img-marg{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-width-1{
+    width: 45%;
+}
+.div-width-1-2{
+    width: 55%;
+}
+
+.div-width-1 img{
+    width: 80%;
+}
+
+footer {
+    background-color: rgb(20, 5, 83);
+    padding: 20px;
+    text-align: center;
+    color:white;
+    line-height: 30px;
+}
+
+.social{
+    color: white;
+}
