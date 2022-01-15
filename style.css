@@ -91,3 +91,14 @@ footer {
 .social{
     color: white;
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 50px;
+}
+
+.checked{
+    color: yellow;
+}
