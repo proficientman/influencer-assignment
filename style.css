@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(250, 248, 245);
+}
+
 nav ul{
     display: flex;
 }
@@ -95,10 +99,33 @@ footer {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    margin-left: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
 }
 
+.grid-cell{
+    background-color: white;
+}
 .checked{
     color: yellow;
+}
+
+@media (max-width: 600px) {
+    .flexible-container{
+        display: block;
+        margin-bottom: 150px;
+        padding: 75px 100px 10px 75px;
+    }
+    .half-width img{
+        width: 260px;
+    }
+    .div-width-1 img{
+        width: 260px;
+    }
+    .half-width{
+        display: inline-block;
+    }
 }
